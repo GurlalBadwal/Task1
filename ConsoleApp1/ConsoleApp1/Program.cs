@@ -8,5 +8,18 @@ if (x > 5)
 {
     Console.WriteLine("Yes");
 }else{
-Console.WriteLine("NO");
+    Console.WriteLine("NO");
+}
+
+int [] arr = {1,2,3,3};
+
+static double average(int[] arr)
+{
+    int sum = 0;
+    foreach (var i in arr)
+    {
+        sum += i;
+    }
+
+    return sum / arr.Length;
 }
