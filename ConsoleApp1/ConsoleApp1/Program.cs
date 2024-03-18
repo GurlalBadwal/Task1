@@ -23,3 +23,17 @@ static double average(int[] arr)
 
     return sum / arr.Length;
 }
+
+static int maxVal(int[] arr)
+{
+    int max = arr[0];
+    foreach (var i in arr)
+    {
+        if (max < i)
+        {
+            max = i;
+        }
+    }
+
+    return max;
+}
