@@ -16,11 +16,10 @@ int [] arr = {1,2,3,3};
 static double average(int[] arr)
 {
     int sum = 0;
-    foreach (var k in arr)
+    foreach (var j in arr)
     {
-        sum += k;
+        sum += j;
     }
-
     return sum / arr.Length;
 }
 
